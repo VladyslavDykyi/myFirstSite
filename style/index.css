@@ -1,0 +1,33 @@
+.done p,
+.done h6 {
+    text-decoration: line-through;
+}
+
+/* #myForm [type="submit"] {
+    background-color: blue;
+} */
+
+
+.bg-red {
+    height: 600px;
+    width: 600px;
+    background-color: red;
+}
+
+.bg-blue {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+}
+
+.bg-green {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+}
+
+.bg-grey {
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}

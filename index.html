@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-4">
+                <form id="myForm">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">To Do</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter name Task" name="task">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">To Do Text</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="text" rows="3"></textarea>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-8">
+                <div class="row" id="todoList">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <div>
+        <h2>dog</h2>
+        <h2>cat</h2>
+    </div> -->
+
+
+    <script src="./script/lib/proper.min.js"></script>
+    <script src="./script/lib/bootstrap.min.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
